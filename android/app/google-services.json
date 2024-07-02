@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "299826378293",
+    "project_id": "student-details-cc07e",
+    "storage_bucket": "student-details-cc07e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299826378293:android:b08e98a6de61ee9f01637c",
+        "android_client_info": {
+          "package_name": "com.example.student"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACImfkfJAvPQ0d9ep1O-pm6WgGSgTxXqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299826378293:android:e1a3cf181ce4465d01637c",
+        "android_client_info": {
+          "package_name": "com.example.student_details"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACImfkfJAvPQ0d9ep1O-pm6WgGSgTxXqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299826378293:android:4b500872e568d12001637c",
+        "android_client_info": {
+          "package_name": "com.yourcompany.studentdetails"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACImfkfJAvPQ0d9ep1O-pm6WgGSgTxXqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
