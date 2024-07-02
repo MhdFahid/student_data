@@ -5,7 +5,6 @@ import 'package:student/consts/constants.dart';
 import 'package:student/controllers/login_controller.dart';
 import 'package:student/suported_widgets/custom_text_field_with_button.dart';
 import '../suported_widgets/square_button.dart';
-import 'registration_screen.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();

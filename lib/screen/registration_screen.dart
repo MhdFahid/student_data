@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:student/consts/constants.dart';
-import 'package:student/screen/login.dart';
 import 'package:student/suported_widgets/square_button.dart';
 import 'package:student/controllers/registration_controller.dart';
 import '../consts/app_color_constants.dart';

@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
-import 'package:student/screen/student_list_page.dart';
 
 class LoginController extends GetxController {
   var isLoading = false.obs;
