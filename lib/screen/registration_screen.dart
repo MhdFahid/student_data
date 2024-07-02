@@ -152,11 +152,11 @@ class RegistrationPage extends StatelessWidget {
                       onTap: () async {
                         if (_formKey.currentState!.validate()) {
                           await registrationController.registerUser(
-                            nameController.text,
-                            emailController.text,
-                            addressController.text,
-                            ageController.text,
-                            passwordController.text,
+                            nameController.text.trim(),
+                            emailController.text.trim(),
+                            addressController.text.trim(),
+                            ageController.text.trim(),
+                            passwordController.text.trim(),
                           );
                         }
                       },
@@ -166,7 +166,7 @@ class RegistrationPage extends StatelessWidget {
                   gapH(20),
                   TextButton(
                     onPressed: () {
-                      Get.to(() => LoginPage());
+                      Get.offAllNamed('/login');
                     },
                     child: Text(
                       'Already have an account? Login',

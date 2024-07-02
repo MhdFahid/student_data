@@ -22,9 +22,9 @@ class RegistrationController extends GetxController {
         "age": age,
         "id": students.id.toString(),
       });
-      // Get.to(() => StudentListPage());
+      Get.offAllNamed('/home');
       Get.showSnackbar(const GetSnackBar(
-        message: 'Registered successfully',
+        message: 'Registered successfully and logged in.',
         duration: Duration(seconds: 2),
       ));
     } on FirebaseAuthException catch (e) {

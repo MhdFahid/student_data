@@ -9,7 +9,7 @@ import 'package:student/screen/registration_screen.dart';
 import '../consts/app_color_constants.dart';
 import '../suported_widgets/card_item.dart';
 import '../suported_widgets/download_button.dart';
-import 'login.dart';
+
 import 'pdf_view_screen.dart';
 
 class StudentListPage extends StatelessWidget {
@@ -88,7 +88,7 @@ class StudentListPage extends StatelessWidget {
                                     splashColor: AppColorsConstants.redColor,
                                     onPressed: () async {
                                       await FirebaseAuth.instance.signOut();
-                                      Get.offAllNamed('/register');
+                                      Get.offAllNamed('/login');
                                     },
                                     child: Padding(
                                       padding: const EdgeInsets.all(8.0),

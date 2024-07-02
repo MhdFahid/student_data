@@ -13,7 +13,7 @@ class LoginController extends GetxController {
         email: email,
         password: password,
       );
-      Get.offAll(() => StudentListPage());
+      Get.offAllNamed('/home');
     } on FirebaseAuthException catch (e) {
       String message;
 

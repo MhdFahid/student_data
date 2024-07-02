@@ -101,7 +101,7 @@ class LoginPage extends StatelessWidget {
                 bgColor: const Color.fromARGB(241, 246, 242, 242),
                 text: 'Register',
                 onTap: () {
-                  Get.to(() => RegistrationPage());
+                  Get.offAllNamed('/register');
                 },
                 active: false,
               ),
